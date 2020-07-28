@@ -20,7 +20,7 @@ app.use((req, res, next) => {
     }
 
     next();
-})
+});
 
 app.use('/produtos', rotaProdutos);
 app.use('/pedidos', rotaPedidos);
